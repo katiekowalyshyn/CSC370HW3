@@ -1,4 +1,3 @@
-
 import java.util.Arrays;
 
 /** Judge for running a single multi-round match between two Rock-Paper-
@@ -53,6 +52,9 @@ public class Arbiter {
             // Pass in opponent's last move
             a1 = player1.getNextMove(this.lastRound[1]);
             a2 = player2.getNextMove(this.lastRound[0]);
+            //System.out.println("Player 1 move: " + a1);
+            //System.out.println("Player 2 move: " + a2);
+            
         }
         
         // Determine winner, update scores and record the player actions.

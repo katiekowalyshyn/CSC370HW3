@@ -1,4 +1,3 @@
-
 /** A non-equilibrium Rock-Paper-Scissors player.
   * 
   * @author RR

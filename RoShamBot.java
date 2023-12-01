@@ -1,4 +1,3 @@
-
 /** Declares the behavioral contract for a participant in the CSC 370 Rock-
   * Paper-Scissors-Lizard-Spock contest.
   * 

@@ -1,4 +1,3 @@
-
 /** Program that runs a Rock-Paper-Scissors-Lizard-Spock tournament between the 
   * two named players.
   * 
@@ -36,18 +35,21 @@ public class Tournament {
                         getDeclaredConstructor().newInstance();
         }
         catch (Exception e) {
+
             System.out.println("Error: one or more named bots could not be " +
                                "loaded.");
             System.out.println("Double check that your bots have been compiled" +
                                " and that the .class files are in the current" +
                                " directory.");
+                
             System.exit(-1);
         }
         
         // Run tournament
         Arbiter judge = new Arbiter(player1, player2);
-        for (int i = 0; i < numRounds; i++)
+        for (int i = 0; i < numRounds; i++) {
             judge.runRound();
+        }
         
         // Print scores
         int[] scores = judge.getCurrentScore();

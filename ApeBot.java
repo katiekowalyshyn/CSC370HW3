@@ -1,4 +1,3 @@
-
 /** A mimicry-based Rock-Paper-Scissors player.
   * 
   * @author RR
